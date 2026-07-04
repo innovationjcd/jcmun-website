@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- PLACEHOLDER LOGO — replace this file with the official JCMUN logo
+       (keep the filename "logo.svg", or update the <img> tags in each page).
+       Colors match the Jumeirah College crest: green / red / gold / black. -->
+  <circle cx="60" cy="60" r="56" fill="#06351e" stroke="#d4a12a" stroke-width="3"/>
+  <!-- globe -->
+  <circle cx="60" cy="54" r="26" fill="none" stroke="#d4a12a" stroke-width="2.2"/>
+  <ellipse cx="60" cy="54" rx="11" ry="26" fill="none" stroke="#d4a12a" stroke-width="1.6"/>
+  <line x1="34" y1="54" x2="86" y2="54" stroke="#d4a12a" stroke-width="1.6"/>
+  <path d="M38 40 Q60 48 82 40" fill="none" stroke="#d4a12a" stroke-width="1.6"/>
+  <path d="M38 68 Q60 60 82 68" fill="none" stroke="#d4a12a" stroke-width="1.6"/>
+  <!-- laurels (maroon, echoing the crest mantling) -->
+  <path d="M28 62 C24 76 34 90 48 93 M28 62 C30 70 33 76 39 81 M28 62 C33 64 38 63 42 60"
+        fill="none" stroke="#a83234" stroke-width="2" stroke-linecap="round"/>
+  <path d="M92 62 C96 76 86 90 72 93 M92 62 C90 70 87 76 81 81 M92 62 C87 64 82 63 78 60"
+        fill="none" stroke="#a83234" stroke-width="2" stroke-linecap="round"/>
+  <text x="60" y="106" text-anchor="middle" font-family="Georgia, serif" font-size="13"
+        font-weight="bold" fill="#e8c55e" letter-spacing="1.5">JCMUN</text>
+</svg>

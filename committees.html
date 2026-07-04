@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Committees — JCMUN</title>
+  <meta name="description" content="Explore JCMUN's committees, topics, and background guides.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.svg" alt="JCMUN logo">
+        <span class="brand-text">
+          <span class="brand-name">JCMUN</span>
+          <span class="brand-sub">Model United Nations</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="committees.html" class="active">Committees</a>
+        <a href="secretariat.html">Secretariat</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a href="registration.html" class="nav-cta">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Committees</h1>
+    <p>This year's committees and topics. Click any committee to read its topic description and download the background guide.</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <!-- EDIT: remove this note once real committees are in -->
+      <p class="placeholder-note">The committees below are placeholders — replace names, topics, and descriptions with this year's real line-up.</p>
+
+      <div class="committee-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ga">General Assembly</button>
+        <button class="filter-btn" data-filter="spec">Specialized</button>
+        <button class="filter-btn" data-filter="crisis">Crisis</button>
+      </div>
+
+      <div class="committee-list">
+
+        <!-- ============ COMMITTEE CARD TEMPLATE ============
+             data-type: "ga" | "spec" | "crisis"  (controls the filter + badge)
+             To add a background guide: change the .guide-link
+             href to the PDF path and remove class "disabled".
+             ================================================== -->
+
+        <details class="committee-card" data-type="ga">
+          <summary>
+            <div class="committee-title">
+              <h3>General Assembly 1 — DISEC</h3>
+              <p class="topic">Topic: [Disarmament &amp; International Security topic]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-ga">GA</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — 3–5 sentence description of the topic: why it matters, the key questions delegates will debate, and what kind of delegate this committee suits (beginner-friendly, advanced, etc.).]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+        <details class="committee-card" data-type="ga">
+          <summary>
+            <div class="committee-title">
+              <h3>General Assembly 3 — SOCHUM</h3>
+              <p class="topic">Topic: [Social, Humanitarian &amp; Cultural topic]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-ga">GA</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — topic description.]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+        <details class="committee-card" data-type="ga">
+          <summary>
+            <div class="committee-title">
+              <h3>General Assembly 6 — Legal</h3>
+              <p class="topic">Topic: [Legal committee topic]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-ga">GA</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — topic description.]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+        <details class="committee-card" data-type="spec">
+          <summary>
+            <div class="committee-title">
+              <h3>World Health Organization (WHO)</h3>
+              <p class="topic">Topic: [Global health topic]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-spec">Specialized</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — topic description.]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+        <details class="committee-card" data-type="spec">
+          <summary>
+            <div class="committee-title">
+              <h3>UN Security Council (UNSC)</h3>
+              <p class="topic">Topic: [Security Council topic]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-spec">Specialized</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — topic description.]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+        <details class="committee-card" data-type="spec">
+          <summary>
+            <div class="committee-title">
+              <h3>ECOSOC</h3>
+              <p class="topic">Topic: [Economic &amp; Social Council topic]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-spec">Specialized</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — topic description.]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+        <details class="committee-card" data-type="crisis">
+          <summary>
+            <div class="committee-title">
+              <h3>Historical Crisis Committee</h3>
+              <p class="topic">Topic: [Crisis scenario]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-crisis">Crisis</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — crisis scenario description. Note the fast-paced format and whether prior MUN experience is recommended.]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+        <details class="committee-card" data-type="crisis">
+          <summary>
+            <div class="committee-title">
+              <h3>Junior Crisis Committee</h3>
+              <p class="topic">Topic: [Beginner-friendly crisis scenario]</p>
+            </div>
+            <div class="committee-meta">
+              <span class="badge badge-crisis">Crisis</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </summary>
+          <div class="committee-body">
+            <p>[Placeholder — topic description.]</p>
+            <a class="guide-link disabled" href="#">📄 Background Guide — coming soon</a>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <h2>Found Your Committee?</h2>
+    <p>Register now and note your committee preferences in the form.</p>
+    <a href="registration.html" class="btn btn-gold">Register Now</a>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="brand-name">JCMUN</span>
+          <p>Junior Collegiate Model United Nations — fostering diplomacy, debate, and global citizenship in the next generation of leaders.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="committees.html">Committees</a></li>
+            <li><a href="secretariat.html">Secretariat</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="https://instagram.com/jcmun" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span class="footer-year"></span> JCMUN. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

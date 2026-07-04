@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — JCMUN</title>
+  <meta name="description" content="Get in touch with the JCMUN team — questions, registration help, and partnerships.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.svg" alt="JCMUN logo">
+        <span class="brand-text">
+          <span class="brand-name">JCMUN</span>
+          <span class="brand-sub">Model United Nations</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="committees.html">Committees</a>
+        <a href="secretariat.html">Secretariat</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="registration.html" class="nav-cta">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Contact Us</h1>
+    <p>Questions about registration, committees, or anything else? We'd love to hear from you.</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Form: opens the visitor's email app with the message pre-filled.
+             (For a hosted form backend, services like Formspree work with
+             static sites — just swap the form action.) -->
+        <form class="contact-form" id="contact-form">
+          <div>
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" required placeholder="Your full name">
+          </div>
+          <div>
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" required placeholder="you@example.com">
+          </div>
+          <div>
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" required placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark" style="border: 0; cursor: pointer; justify-self: start;">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-block">
+            <h3>Email</h3>
+            <!-- EDIT: real email (also update it in js/main.js for the form) -->
+            <p><a href="mailto:info@jcmun.org">info@jcmun.org</a></p>
+          </div>
+          <div class="info-block">
+            <h3>Registration Enquiries</h3>
+            <p><a href="mailto:registration@jcmun.org">registration@jcmun.org</a></p>
+          </div>
+          <div class="info-block">
+            <h3>Find Us</h3>
+            <!-- EDIT: school name and address -->
+            <p>[School Name]<br>[Street Address]<br>[City, Country]</p>
+          </div>
+          <div class="info-block">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <!-- EDIT: real social URLs -->
+              <a href="https://instagram.com/jcmun" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="TikTok">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 7.1a4.8 4.8 0 0 1-3.5-1.6v7.6a5.6 5.6 0 1 1-5.6-5.6c.2 0 .4 0 .6.1v2.9a2.7 2.7 0 1 0 2.1 2.6V2h2.9a4.8 4.8 0 0 0 3.5 4.2z"/></svg>
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="brand-name">JCMUN</span>
+          <p>Junior Collegiate Model United Nations — fostering diplomacy, debate, and global citizenship in the next generation of leaders.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="committees.html">Committees</a></li>
+            <li><a href="secretariat.html">Secretariat</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="https://instagram.com/jcmun" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span class="footer-year"></span> JCMUN. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
