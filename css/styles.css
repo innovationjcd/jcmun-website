@@ -83,7 +83,13 @@ a { color: var(--green-700); }
   text-decoration: none;
 }
 
-.brand img { height: 44px; width: 44px; }
+.brand img {
+  height: 46px;
+  width: auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 3px 6px;
+}
 
 .brand-text {
   display: flex;
@@ -622,6 +628,35 @@ details[open] .chevron { transform: rotate(180deg); }
 }
 
 .deadline-item p { color: var(--ink-soft); font-size: 0.95rem; }
+
+/* ---------- Schedule ---------- */
+
+.schedule-card ul { list-style: none; margin-top: 6px; }
+
+.schedule-card li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.schedule-card li:last-child { border-bottom: 0; }
+
+.schedule-card .time {
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.schedule-note {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  margin-top: 26px;
+}
 
 /* ---------- Resources ---------- */
 

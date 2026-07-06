@@ -5,8 +5,8 @@
    Format: year, month name, day, time (24h), timezone offset.
    ============================================================ */
 
-// >>> SET THE REAL CONFERENCE START DATE HERE <<<
-const CONFERENCE_DATE = new Date("2027-02-05T08:00:00+04:00");
+// JCMUN 4 begins with delegate registration: Friday 20 Nov 2026, 2:00 PM (Dubai)
+const CONFERENCE_DATE = new Date("2026-11-20T14:00:00+04:00");
 
 /* ---------- Countdown timer (home page) ---------- */
 function updateCountdown() {
@@ -78,8 +78,7 @@ if (contactForm) {
     const email = contactForm.querySelector("#cf-email").value.trim();
     const message = contactForm.querySelector("#cf-message").value.trim();
 
-    // EDIT: replace with the official JCMUN email address
-    const to = "info@jcmun.org";
+    const to = "munsecretariat@jumeirahcollege.com";
     const subject = encodeURIComponent(`Website enquiry from ${name}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
     window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;

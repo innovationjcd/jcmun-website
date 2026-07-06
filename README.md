@@ -18,7 +18,7 @@ A static website for the JCMUN conference — plain HTML, CSS, and JavaScript. N
 
 Everything that needs replacing is marked with `[square brackets]` or an `<!-- EDIT: ... -->` comment in the HTML.
 
-1. **Logo** — replace `assets/logo.svg` with the official logo (keep the filename and it updates everywhere).
+1. **Logo** — the official crest lives at `assets/logo.png` (keep the filename and any replacement updates everywhere).
 2. **Brand colors & fonts** — edit the variables at the top of `css/styles.css` (`--green-900`, `--gold`, `--red`, `--black`, etc.). The palette follows the Jumeirah College crest: green, red, gold, and black. One change re-themes the whole site.
 3. **Conference date (countdown)** — edit `CONFERENCE_DATE` at the top of `js/main.js`. Also update the dates shown in the hero on `index.html`.
 4. **Registration form links** — in `registration.html`, replace the two `href="#"` buttons with your Google Form URLs.
