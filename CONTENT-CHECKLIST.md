@@ -3,11 +3,12 @@
 Everything the website needs from the JCMUN team, with exactly where each item goes.
 File-naming and folder instructions are for whoever adds them to the code.
 
-> **Status (updated 6 July 2026):** Items **1 and 4–9 received and live on the site**
-> (official crest logo at `assets/logo.png`, session name "JCMUN 4 2026", no theme,
-> dates Nov 20–22 2026, venue, email, Instagram), plus the **schedule text** from
-> item 26 (PDF still pending).
-> Still needed: items 2–3, 10–25, 27–31.
+> **Status (updated 7 July 2026):** Items **1, 4–10 received and live on the site**
+> (official crest logo at `assets/logo.png`, session name "JCMUN 4 2026", theme
+> "Finding Common Ground: Rebuilding Peace in a Divided World", dates Nov 20–22 2026,
+> venue, email, Instagram, SG welcome letter from Megha), plus the **schedule text**
+> from item 26 (PDF still pending).
+> Still needed: items 2–3, 11–25, 27–31 — including the SG's surname and photo (item 11).
 
 ## 1. Branding (affects every page)
 
