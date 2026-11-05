@@ -6,6 +6,18 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "4173"],
       "port": 4173
+    },
+    {
+      "name": "kyra-portfolio",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4890", "--directory", "/Users/kyraanand/Documents/kyra-portfolio"],
+      "port": 4890
+    },
+    {
+      "name": "nrittalens",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/kyraanand/Documents/NrittaLens/serve.py"],
+      "port": 8642
     }
   ]
 }
