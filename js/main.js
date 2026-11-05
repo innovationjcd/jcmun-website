@@ -5,8 +5,8 @@
    Format: year, month name, day, time (24h), timezone offset.
    ============================================================ */
 
-// JCMUN 4 begins with delegate registration: Friday 20 Nov 2026, 2:00 PM (Dubai)
-const CONFERENCE_DATE = new Date("2026-11-20T14:00:00+04:00");
+// JCMUN 4 begins with delegate check-in: Friday 20 Nov 2026, 2:30 PM (Dubai)
+const CONFERENCE_DATE = new Date("2026-11-20T14:30:00+04:00");
 
 /* ---------- Countdown timer (home page) ---------- */
 function updateCountdown() {

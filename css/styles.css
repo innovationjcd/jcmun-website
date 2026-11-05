@@ -947,3 +947,8 @@ details[open] .chevron { transform: rotate(180deg); }
 
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* ---------- Missing content marker ----------
+   Red = information not yet supplied by the JCMUN team.
+   Remove class "missing" once the real content is in. */
+.missing, .missing * { color: #e00000 !important; }
