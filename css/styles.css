@@ -691,6 +691,25 @@ details[open] .chevron { transform: rotate(180deg); }
   margin-top: 12px;
 }
 
+/* Small download button used on resource cards */
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: var(--green-800);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.download-link:hover { background: var(--green-700); }
+
 /* ---------- Contact ---------- */
 
 .contact-grid {
